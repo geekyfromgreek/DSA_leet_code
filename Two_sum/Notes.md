@@ -35,10 +35,15 @@ For our problem, we store:
 number → index
 
 for example:
-needed= target - nums[i]
-here needed becomes 9-2=7,
+ needed= target - nums[i]
+ here needed becomes 9-2=7,
+
+
  we havent seen 7 before, so store it (seen[nums[i]=i)
 here we save 7 as 7,0
+
+
 then comes 7, needed=9-7
 we have seen 2 before, its in hash map so, if needed is in seen,
+
  we return seen of needed, that is seen of 2, and i, which is 1 currently
