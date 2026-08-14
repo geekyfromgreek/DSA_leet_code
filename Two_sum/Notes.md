@@ -9,7 +9,7 @@ so we used Brute Force Approach
  
   but...it has O(n2) complexity
 
-** what is  self?**
+**what is  self?**
 
 self is  current object
  so u create object  like
@@ -36,7 +36,8 @@ number → index
 
 for example:
 needed= target - nums[i]
-here needed becomes 9-2=7, we havent seen 7 before, so store it (seen[nums[i]=i)
+here needed becomes 9-2=7,
+ we havent seen 7 before, so store it (seen[nums[i]=i)
 here we save 7 as 7,0
 then comes 7, needed=9-7
 we have seen 2 before, its in hash map so, if needed is in seen,
